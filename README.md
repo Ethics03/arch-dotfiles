@@ -47,7 +47,9 @@ Click on the image to see the preview! 👇
 
 
 
-![demo](./assets/showcase2.png)
+![demo1](./assets/showcase2.png)
+![demo2](./assets/music.png)
+
 
 
 

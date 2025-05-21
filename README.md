@@ -23,7 +23,7 @@ Custom, minimal, and productive — this is my **dotfiles setup** for a modern A
 
 > Replace this with a high-quality GIF of your setup
 
-![Desktop Preview](./hyprshowcase.gif)
+![Desktop Preview](https://youtu.be/MlPf3jB7Ps8?feature=shared)
 
 ---
 

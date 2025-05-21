@@ -19,6 +19,11 @@ Custom, minimal, and productive — this is my **dotfiles setup** for a modern A
 
 ---
 
+
+These dotfiles are for **[Arch Linux](https://archlinux.org)** based systems and **[Hyprland](https://hyprland.org)** as window manager<br>
+If you liked the repo, give a star ⭐ — found a bug? Open an [issue](https://github.com/Ethics03/arch-dotfiles/issues/new)!
+
+
 ## 📸 Preview
 
 

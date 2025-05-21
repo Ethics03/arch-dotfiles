@@ -49,6 +49,8 @@ Click on the image to see the video demo! 👇
 
 ![demo1](./assets/showcase2.png)
 ![demo2](./assets/music.png)
+![lockscreen](./assets/lockscreen.png)
+
 
 
 

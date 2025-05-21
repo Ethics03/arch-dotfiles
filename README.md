@@ -21,7 +21,6 @@ Custom, minimal, and productive — this is my **dotfiles setup** for a modern A
 
 ## 📸 Preview
 
-> Replace this with a high-quality GIF of your setup
 
 [![Watch the demo](assets/josuke.jpeg)](https://youtu.be/MlPf3jB7Ps8?feature=shared)
 

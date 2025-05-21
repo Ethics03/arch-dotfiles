@@ -1,0 +1,121 @@
+window#waybar {
+    font-family: "JetBrains Mono Nerd Font Bold";
+    background-color: rgba(0,0,0,0);
+    font-size: 1.0rem;
+    border-radius: 0.5rem;
+}
+
+.modules-left, .modules-center {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    padding: 2px;
+}
+
+
+.modules-right {
+    opacity: 1;
+    background: #202020;
+    border-radius: 0.5rem;
+    padding: 3px 9px 3px 10px;
+}
+
+
+#custom-separator {
+    color: #888888;
+    padding: 0 5px;
+    padding-left: 1px;
+    font-size: 1rem;
+}
+
+
+
+
+/* label.module {
+    margin-left: -1px;
+} */
+
+#workspaces {
+    background: #202020;
+    border-radius: 0.5rem;
+    padding: 0 2px;
+}
+
+#workspaces button {
+    font-size: 0.6rem;
+    padding: 0 0.3rem 0 0;
+}
+
+#window {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    padding: 2px 5px;
+}
+
+#custom-wofi {
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 14px;
+  font-weight: 400;
+  color: #202020;
+  background: #202020;
+  border-radius: 0.5rem;
+  padding-left: 8px; 
+  padding-right: 8px;
+}
+
+#custom-wall {
+  padding-left: 4px;
+  padding-right: 5px;
+}
+
+#clock {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    padding: 0 3px 0 0;
+}
+
+#battery {
+    color: lightgreen;
+}
+
+#memory {
+    color: lightpink;
+}
+
+#disk {
+    color: lightskyblue;
+}
+
+#cpu {
+    color: lightgoldenrodyellow;
+}
+
+#temperature {
+    color: lightslategray;
+}
+
+#custom-power {
+    font-size: 16px;
+    padding: 0 2px;
+    color: #ffffff;              /* Nice white  */
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+
+
+#custom-network {
+    margin-right: 7px; /* or adjust as needed */
+    padding: 1px 1px;
+}
+
+#mpris {
+    background: rgba(0, 0, 0, 0.5); /* or use #202020 for solid */
+    border-radius: 0.5rem;
+    padding: 2px 6px;
+    margin-right: 0.5px; /* optional: spacing before the separator */
+}
+

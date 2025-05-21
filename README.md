@@ -43,7 +43,7 @@ If you liked the repo, give a star ⭐ — found a bug? Open an [issue](https://
 
 Click on the image to see the video demo! 👇
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MlPf3jB7Ps8?si=tAP_Rx3ww__PnPL2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the demo](assets/josuke.jpeg)](https://youtu.be/MlPf3jB7Ps8?feature=shared)
 
 
 

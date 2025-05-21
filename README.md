@@ -1,6 +1,6 @@
 # ✨ Arch Linux Hyprland Dotfiles
 
-![Hyprland Setup](https://yourdomain.com/your-hyprland-setup.gif)
+![Hyprland Setup](./assets/showcase1.png)
 
 Custom, minimal, and productive — this is my **dotfiles setup** for a modern Arch Linux desktop powered by **Hyprland**.
 
@@ -27,6 +27,12 @@ Click on the image to see the preview!
 [![Watch the demo](assets/josuke.jpeg)](https://youtu.be/MlPf3jB7Ps8?feature=shared)
 
 
+
+![demo](./assets/showcase2.png)
+
+
+
+
 ---
 
 ## 🚀 Features
@@ -50,5 +56,4 @@ Click on the image to see the preview!
 ├── fish        # Shell config and aliases
 ├── nvim        # LazyVim-powered Neovim setup
 ├── neofetch    # System fetch config
-└── wallpapers  # Your aesthetic wallpapers
 

@@ -19,10 +19,24 @@ Custom, minimal, and productive — this is my **dotfiles setup** for a modern A
 
 ---
 
+<table>
+<tbody>
+<td align="center">
+<img width="2000" height="0"><br>
 
 These dotfiles are for **[Arch Linux](https://archlinux.org)** based systems and **[Hyprland](https://hyprland.org)** as window manager<br>
 If you liked the repo, give a star ⭐ — found a bug? Open an [issue](https://github.com/Ethics03/arch-dotfiles/issues/new)!
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Ethics03/arch-dotfiles)
+![GitHub Org's stars](https://img.shields.io/github/stars/Ethics03/arch-dotfiles)
+![GitHub forks](https://img.shields.io/github/forks/Ethics03/arch-dotfiles)
+![GitHub last commit](https://img.shields.io/github/last-commit/Ethics03/arch-dotfiles)
+
+
+<img width="2000" height="0">
+</td>
+</tbody>
+</table>
 
 ## 📸 Preview
 

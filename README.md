@@ -41,7 +41,7 @@ If you liked the repo, give a star ⭐ — found a bug? Open an [issue](https://
 ## 📸 Preview
 
 
-Click on the image to see the preview! 👇
+Click on the image to see the video demo! 👇
 
 [![Watch the demo](assets/josuke.jpeg)](https://youtu.be/MlPf3jB7Ps8?feature=shared)
 

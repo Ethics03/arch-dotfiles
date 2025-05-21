@@ -16,6 +16,7 @@ Custom, minimal, and productive — this is my **dotfiles setup** for a modern A
 | Text Editor   | Neovim (LazyVim setup)   |
 | Bar           | Waybar                   |
 | System Info   | Neofetch                 |
+| LockScreen    | Hyprlock                 |
 
 ---
 

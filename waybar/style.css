@@ -1,7 +1,7 @@
 window#waybar {
     font-family: "JetBrains Mono Nerd Font Bold";
     background-color: rgba(0,0,0,0);
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     border-radius: 0.5rem;
 }
 
@@ -28,6 +28,12 @@ window#waybar {
     font-size: 1rem;
 }
 
+
+
+#tray > .tray-icon {
+  margin-right: 15px;
+  padding: 500px;
+}
 
 
 
@@ -63,9 +69,14 @@ window#waybar {
   padding-right: 8px;
 }
 
+#custom-updates {
+  margin-right: 2pt;
+  font-size: 10pt;
+}
+
 #custom-wall {
   padding-left: 4px;
-  padding-right: 5px;
+  padding-right: 4px;
 }
 
 #clock {

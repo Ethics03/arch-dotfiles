@@ -4,7 +4,7 @@
     "layer": "top",
     "position": "top",
 
-    "height": 35,
+    "height": 40,
     // "width": 1920,
 
     "margin": "5",
@@ -22,7 +22,7 @@
     "modules-center": ["hyprland/window","mpris"],
     "modules-right": [
         "tray",
-        "custom/network",
+        "bluetooth",
         "backlight",
         "wireplumber",
         "battery",
@@ -30,6 +30,7 @@
         "cpu",
         "temperature",
         "custom/wall",
+        "custom/updates",
         "clock",
         "custom/power"
     ],
@@ -40,11 +41,25 @@
     "tooltip": false
 },
 
+  "custom/updates": {
+      "exec": "~/.config/waybar/bin/update.sh",
+      "return-type": "json",
+      "format": "{}",
+      "on-click": "~/.config/waybar/bin/update.sh up",
+      "interval": 30,
+      "min-length": 2,
+      "max-length": 2
+    },
+
+"tray": {
+    "icon-size": 18,
+    "spacing": 10
+},
 
   "custom/network": {
     "format": "󰤨",  // You can use icons like  󰤨 󰤯
     "tooltip": false,
-    "on-click": "kitty -e nmtui",  // or `nm-applet` if not already running
+    "on-click": "nm-applet",  // or `nm-applet` if not already running
     "exec": "echo 󰤨",  // just shows the icon
     "exec-if": "true"
 },
@@ -82,13 +97,26 @@
 	},
 
   "custom/wall": {
-    "format": "",  // You can change this icon to anything you prefer
+    "format": " ",  // You can change this icon to anything you prefer
     "exec": "echo ", // This will just display the icon
     "on-click": "~/.config/hypr/scripts/wall.sh",
     "tooltip": true,// Run the script when clicked
     "tooltip-format": "Click to change wallpaper", // Tooltip for the icon
     "exec-if": "true"
 },
+
+
+ "bluetooth": {
+      "format-on": "",
+      "format-off": "󰂲",
+      "format-disabled": "󰂲",
+      "format-connected": "<b></b>",
+      "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+      "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+      "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+      "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+      "on-click": "blueman-manager"
+    },
 
 
 
